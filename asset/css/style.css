@@ -1,0 +1,110 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+:root {
+    --mint  : #90ee90;
+    --daun  : #619a3d;
+    --batu  : #8d8e74;
+    --kayu  : #855e42;
+    --kayu2 : #deb886;
+    --sky   : #87ceeb;
+    --hijo  : #0ccf43;
+    --biru  : #5ddae8;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+.logo{
+    font-size: 1.5em;
+    margin-top: 0.1em;
+    margin-right: 1.5em;
+    color: white;
+}
+
+.tema-bg{
+    background-color: whitesmoke;
+}
+.tema-logo{
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.1em;
+}
+
+.cuplikan-card {
+    height: auto;
+    margin: 10px auto;
+    background: var(--kayu);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5rem;
+    max-width: 96.5%;
+    max-height: 96.5%;
+    transition: transform 0.3s ease-out;
+    border-radius: 1em 1em 0.5em 0.5em;
+}
+.cuplikan-card_gambar {
+    overflow: hidden;
+    height: 300px;
+    transition: all 0.5s ease;
+    border-radius: 0.5em 0.5em 0 0;
+    overflow: hidden;
+}
+.cuplikan-card_gambar img {
+    transition: all 0.5s ease;
+}
+.cuplikan-card_konten {
+    padding: 30px;
+}
+.cuplikan-card_judul {
+    margin: 0;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-bottom: 10px;
+}
+.cuplikan-card_isi {
+    height: 1px;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.cuplikan-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+.cuplikan-card:hover .cuplikan-card_isi {
+    height: 115px;
+    visibility: visible;
+}
+.cuplikan-card:hover .cuplikan-card_gambar {
+    height: 175px;
+}
+.cuplikan-card:hover .cuplikan-card_gambar img {
+    transform: scale(1.4);
+}
+a.cuplikan-card,
+a.cuplikan-card:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+#jumbo-berita{
+    background-color: var(--sky);
+    text-align: center;
+}
+
+#listBerita a,
+#listBerita a:hover{
+    color: inherit;
+    text-decoration: none;
+}

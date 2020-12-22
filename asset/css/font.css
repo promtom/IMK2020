@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+:root {
+    --mint  : #90ee90;
+    --daun  : #619a3d;
+    --batu  : #8d8e74;
+    --kayu  : #855e42;
+    --kayu2 : #deb886;
+    --sky   : #87ceeb;
+    --hijo  : #0ccf43;
+    --biru  : #5ddae8;
+}
+
+.font01{
+    font-family: Agency FB;
+    font-size: larger;
+}
+
+#credit{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.fnt-tema{
+    font-family: 'Nerko One', cursive;
+    font-size: 3.0em;
+    text-align: center;
+    color: var(--batu);
+}
+.fnt-subtema{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    color: var(--kayu2);
+}
+.fnt-judul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: whitesmoke;
+}
+.fnt-isi{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    text-align: center;
+    color: var(--kayu2);
+}
+
+.fnt-berita-judul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.3em;
+    color: var(--hijo);
+}
+.fnt-berita-isi{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    text-align: justify;
+}
+
+.judul-artikel{
+    font-family: Helvetica;
+    font-weight: 900;
+    font-size: 2em;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.isi-artikel{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    text-align: justify;
+}
